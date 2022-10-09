@@ -5,12 +5,12 @@ export default createRouter({
   routes: [
     {
       path: '',
-      redirect: '/home'
+      redirect: '/test'
     },
     {
-      path: '/home',
-      name: 'home',
-      component: () => import('@/views/home.vue')
+      path: '/test',
+      name: 'test',
+      component: () => import('@/views/test.vue')
     }
   ]
 });

@@ -3,10 +3,10 @@
 </template>
 
 <script>
-import { init } from './home.js';
+import { init } from './test.js';
 
 export default {
-  name: 'home-view',
+  name: 'test-view',
   mounted() {
     init('#canvas');
   }
