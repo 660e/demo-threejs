@@ -5,12 +5,12 @@ export default createRouter({
   routes: [
     {
       path: '',
-      redirect: '/test'
+      redirect: '/6f'
     },
     {
-      path: '/test',
-      name: 'test',
-      component: () => import('@/views/test.vue')
+      path: '/6f',
+      name: '6f',
+      component: () => import('@/views/6f.vue')
     }
   ]
 });

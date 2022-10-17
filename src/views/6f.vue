@@ -3,10 +3,10 @@
 </template>
 
 <script>
-import { init } from './test.js';
+import { init } from './6f.js';
 
 export default {
-  name: 'test-view',
+  name: '6f-view',
   mounted() {
     init('#canvas');
   }
